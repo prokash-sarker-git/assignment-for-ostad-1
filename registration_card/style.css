@@ -1,0 +1,119 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Registration card styling */
+.registration-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%;
+}
+
+.gender-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #ff5f57;
+    color: white;
+}
+
+.submit-btn {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #ff4e46;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
